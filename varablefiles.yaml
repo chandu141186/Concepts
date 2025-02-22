@@ -3,6 +3,6 @@
   vars_files:
   -  variable.yaml  
   tasks:
-  -  name: check variables
-     ansible.builtin.debug:
-      msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Learner is {{Learner}}}"
+  -   name: check variables
+      ansible.builtin.debug:
+       msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Learner is {{Learner}}}"
