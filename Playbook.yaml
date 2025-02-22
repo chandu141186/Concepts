@@ -1,4 +1,4 @@
-- name: Web server
+- name: Webserver
   host: Web
   become: yes
   tasks:
