@@ -1,5 +1,5 @@
 - name: Webserver
-  host: Web
+  hosts: Web
   become: yes
   tasks:
     - name: Ping the server
