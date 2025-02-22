@@ -6,10 +6,10 @@
     Trainer: Siva
     Learner: chandu
   tasks:
-   - name: check Variables
-     vars:
-     Course: "Devops with Aws"
-     ansible.builtin.debug:
+   -  name: check Variables
+      vars:
+        Course: "Devops with Aws"
+      ansible.builtin.debug:
          msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Learner is {{Learner}}"
 
 
